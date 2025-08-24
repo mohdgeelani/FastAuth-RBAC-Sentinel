@@ -6,6 +6,7 @@ from fastapi import Depends, HTTPException, status
 from jose import JWTError, jwt
 from fastapi.security import OAuth2PasswordBearer
 from datetime import datetime, timedelta
+from app.models import User
 
 SECRET_KEY = "83e021ef33bb1a46a11b57fbb44aa9e3d9e3a35ffb2012bbcf54a3c94b7e44f2"
 ALGORITHM = "HS256"
@@ -43,3 +44,11 @@ def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(
     user_id = verify_token(token, credentials_exception)
     user = db.query(models.User).filter(models.User.id == user_id).first()
     return user
+
+def require_admin(current_user: User = Depends(get_current_user)):
+    if current_user.role != "admin":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="You do not have admin privileges",
+        )
+    return current_user

@@ -6,7 +6,7 @@ from app.schemas import UserOut
 from app.database import get_db
 from app.auth import get_current_user 
 from passlib.context  import CryptContext
-
+from app.auth import require_admin
 router = APIRouter()
 
 pwd_context = CryptContext(schemes= ["bcrypt"], deprecated = "auto")
@@ -35,7 +35,8 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
     new_user = models.User(
         username = user.username,
         email= user.email,
-        hashed_password = hashed_password
+        hashed_password = hashed_password,
+        role = user.role
     )
 
     db.add(new_user)
@@ -45,4 +46,9 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
 
 @router.get("/users/me", response_model=UserOut)
 def read_users_me(current_user: User = Depends(get_current_user)):
+    print(f"hello  normal user {current_user.username}")
     return current_user
+
+@router.get("/admin-only")
+def get_admin_data(current_user=Depends(require_admin)):
+    return {"message": f"Hello, Admin {current_user.username}"}

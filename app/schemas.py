@@ -5,6 +5,7 @@ class UserCreate(BaseModel):
     username: str
     email: EmailStr
     password: str
+    role : str
 
 # For reading user details (responses)
 class UserOut(BaseModel):
