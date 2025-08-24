@@ -1,2 +1,4 @@
 __pycache__/
 *.db
+traffic_test.py
+data/
