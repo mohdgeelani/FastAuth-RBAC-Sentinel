@@ -171,7 +171,7 @@ FastAuth-RBAC-Sentinel/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/FastAuth-RBAC-Sentinel.git
+   git clone https://github.com/mohdgeelani/FastAuth-RBAC-Sentinel.git
    cd FastAuth-RBAC-Sentinel
    ```
 2. **Start Services with Docker**
