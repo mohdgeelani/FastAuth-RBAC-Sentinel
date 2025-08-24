@@ -220,10 +220,10 @@ From writing secure APIs to implementing protected routes, running load tests, c
 This isn't just a codebase; it's a backend engineer’s journey of learning through building, breaking, and benchmarking — with every metric earned.
 
 ```
-                                            ⚡ Designed. Tested. Observed. Delivered.
-                                         🎯 Real traffic. Real metrics. Real experience.  
+                ⚡ Designed. Tested. Observed. Delivered.
+              🎯 Real traffic. Real metrics. Real experience.  
 ```
-                FastAuth-RBAC-Sentinel is not just a personal project — it's a simulation of production-grade engineering.
+    FastAuth-RBAC-Sentinel is not just a personal project — it's a simulation of production-grade engineering.
 
 
 
