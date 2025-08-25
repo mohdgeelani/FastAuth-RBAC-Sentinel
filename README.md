@@ -55,6 +55,7 @@ This unified system design ensures that the application is **secure**, **scalabl
 ![Grafana Dashboard](images/loadtest.png)
 
 Visual walkthrough of backend operations including Swagger UI, pgAdmin, Prometheus, Grafana, and Locust dashboards.
+
 🎞️ [Click here to view the Backend Slide Deck (Snapshots)](https://docs.google.com/presentation/d/e/2PACX-1vQlpy_R9iDjRoul3v5yE6KcJBytA0ziAgfsP0jg1KjJqqqT9wOMKpzdTBenoeUGL222lMRLym382T96/pub?start=false&loop=false)
 
 
