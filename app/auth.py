@@ -8,7 +8,7 @@ from fastapi.security import OAuth2PasswordBearer
 from datetime import datetime, timedelta
 from app.models import User
 
-SECRET_KEY = "***REMOVED***"
+SECRET_KEY = "dev-secret-key"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 print(OAuth2PasswordBearer)
