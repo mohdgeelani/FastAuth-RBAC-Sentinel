@@ -50,7 +50,7 @@ This unified system design ensures that the application is **secure**, **scalabl
 
 ## 📸 Backend in Action: Grafana Dashboard
 
-### Real-time metrics, traffic simulation, and system behavior under heavy load — all in one glance.
+Real-time metrics, traffic simulation, and system behavior under heavy load — all in one glance.
 
 ![Grafana Dashboard](images/loadtest.png)
 
