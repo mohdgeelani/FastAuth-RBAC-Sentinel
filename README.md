@@ -54,6 +54,9 @@ This unified system design ensures that the application is **secure**, **scalabl
 
 ![Grafana Dashboard](images/loadtest.png)
 
+[![View Slide Deck](images/auth.png)](https://docs.google.com/presentation/d/e/2PACX-1vQlpy_R9iDjRoul3v5yE6KcJBytA0ziAgfsP0jg1KjJqqqT9wOMKpzdTBenoeUGL222lMRLym382T96/pub?start=false&loop=false)
+
+
 ---
 
 ## 💡 Feature Highlights
