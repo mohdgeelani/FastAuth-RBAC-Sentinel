@@ -33,7 +33,7 @@ The diagram below outlines the complete internal workings of **FastAuth-RBAC-Sen
 
 This modular, production-grade backend is designed to mimic real-world systems — ensuring **robustness, observability, and scalability**.
 
-![alt text](images/image.png)
+![alt text](images/architecture_diagram.png)
 <!-- This architecture represents the end-to-end flow of **FastAuth-RBAC-Sentinel**, capturing both authentication logic and production-grade observability. It illustrates:
 
 - 🔐 Secure user registration and JWT-based login flow
