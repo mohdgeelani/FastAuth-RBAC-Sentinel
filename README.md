@@ -1,11 +1,11 @@
 #  FastAuth-RBAC-Sentinel ![Python](https://img.shields.io/badge/python-%233776AB.svg?&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/fastapi-%2000C7B7.svg?&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%23007ACC.svg?&logo=docker&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?&logo=grafana&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?&logo=postgresql&logoColor=white) ![Prometheus](https://img.shields.io/badge/prometheus-%23E6522C.svg?&logo=prometheus&logoColor=white) ![OAuth2](https://img.shields.io/badge/OAuth2-%23007ACC.svg?&logo=oauth&logoColor=white) ![JWT](https://img.shields.io/badge/jwt-%23007ACC.svg?&logo=jsonwebtokens&logoColor=white)
 
-**FastAuth-RBAC-Sentinel** is a production-grade authentication and role-based access control (RBAC) system built with **FastAPI**, **OAuth2**, and **JWT**, fully containerized with **Docker** Compose,  — designed for scalability, security, and real-time observability.
+**FastAuth-RBAC-Sentinel** is a production-grade authentication and role-based access control (RBAC) system built with **FastAPI**, **OAuth2**, and **JWT**, fully containerized with **Docker** Compose, designed for scalability, security, and real-time observability.
 
 Designed with enterprise-grade architecture in mind, this system goes beyond standard authentication by integrating real-time observability using **Prometheus** and **Grafana**, and validating performance under stress through **Locust**-based load testing. 
-During high-concurrency simulations, **the system sustained over 22,000+ requests**, **handled peak traffic of 70+ requests/sec, maintained low-latency response times with a 50th percentile at 15ms and a 95th at 340ms, and kept the error rate under 0.4%** — all visualized through live Grafana dashboards.
+During high-concurrency simulations, **the system sustained over 22,000+ requests**, **handled peak traffic of 70+ requests/sec, maintained low-latency response times with a 50th percentile at 15ms and a 95th at 340ms, and kept the error rate under 0.4%**  all visualized through live Grafana dashboards.
 
-FastAuth-RBAC-Sentinel is more than just an backend system — it’s a secure, observable, and performance-tested system engineered for reliability and scale.
+FastAuth-RBAC-Sentinel is more than just an backend system, it’s a secure, observable, and performance-tested system engineered for reliability and scale.
 
 
 <!-- A production-grade Authentication & Role-Based Access Control (RBAC) system built with **FastAPI**, **JWT**, and **OAuth2**, featuring real-time metrics monitoring via **Prometheus** & **Grafana** and performance validation through **Locust** load testing.
@@ -50,7 +50,7 @@ This unified system design ensures that the application is **secure**, **scalabl
 
 ## 📸 Backend in Action: Grafana Dashboard
 
-Real-time metrics, traffic simulation, and system behavior under heavy load — all in one glance.
+Real-time metrics, traffic simulation, and system behavior under heavy load - all in one glance.
 
 ![Grafana Dashboard](images/loadtest.png)
 
@@ -84,7 +84,7 @@ Includes full observability setup with Grafana panels:
 Clean, modular codebase using Python, Pydantic models, dependency injection, and async support for scalable API performance.
 
 🧪 **Load Testing with Locust**  
-Simulates real-world user traffic with 50+ concurrent users — validating system performance, stability, and error thresholds under stress.
+Simulates real-world user traffic with 50+ concurrent users validating system performance, stability, and error thresholds under stress.
 
 🐳 **Dockerized Microservices Architecture**  
 All services (FastAPI app, PostgreSQL, Prometheus, Grafana) run in isolated containers, orchestrated via Docker Compose for reproducible local dev/testing.
@@ -169,7 +169,7 @@ FastAuth-RBAC-Sentinel/
    - Performance results used to benchmark latency and stability under heavy load (e.g., 50 users for 5 minutes).
 
 
-> This system is **modular, testable, monitorable**, and scalable — meeting the key backend engineering pillars.
+> This system is **modular, testable, monitorable**, and scalable - meeting the key backend engineering pillars.
 
 ---
 
@@ -221,7 +221,7 @@ FastAuth-RBAC-Sentinel/
 ## 🌟 Final Thoughts
 
 This project began as a simple authentication and RBAC system — but with the ambition to build like real backend engineers do, it evolved into something far more meaningful.
-From writing secure APIs to implementing protected routes, running load tests, capturing Prometheus metrics, and building live Grafana dashboards — every component was built, debugged, tested, and tuned by hand.
+From writing secure APIs to implementing protected routes, running load tests, capturing Prometheus metrics, and building live Grafana dashboards, every component was built, debugged, tested, and tuned by hand.
 
 This isn't just a codebase; it's a backend engineer’s journey of learning through building, breaking, and benchmarking — with every metric earned.
 
