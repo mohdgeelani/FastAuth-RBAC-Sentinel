@@ -31,7 +31,7 @@ The diagram below outlines the complete internal workings of **FastAuth-RBAC-Sen
 - 📊 **Observability Pipeline**: FastAPI exposes metrics via a Prometheus-compatible endpoint; Prometheus scrapes and Grafana visualizes the live metrics.
 - 🐳 **Containerized Setup**: Every component is orchestrated using Docker Compose for local development and testing.
 
-This modular, production-grade backend is designed to mimic real-world systems — ensuring **robustness, observability, and scalability**.
+This modular, production-grade backend is designed to mimic real-world systems ensuring **robustness, observability, and scalability**.
 
 ![alt text](images/architecture_diagram.png)
 <!-- This architecture represents the end-to-end flow of **FastAuth-RBAC-Sentinel**, capturing both authentication logic and production-grade observability. It illustrates:
